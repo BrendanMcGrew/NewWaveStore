@@ -15,6 +15,8 @@
 		42273E90292BA8AA00903E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42273E7D292BA8AA00903E3A /* Assets.xcassets */; };
 		42273E9A292BAA7C00903E3A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42273E99292BAA7C00903E3A /* Product.swift */; };
 		42273E9B292BAA7C00903E3A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42273E99292BAA7C00903E3A /* Product.swift */; };
+		42273E9F292BB26B00903E3A /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42273E9E292BB26B00903E3A /* ProductList.swift */; };
+		42273EA0292BB26B00903E3A /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42273E9E292BB26B00903E3A /* ProductList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		42273E88292BA8AA00903E3A /* NewWaveStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewWaveStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42273E8A292BA8AA00903E3A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		42273E99292BAA7C00903E3A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		42273E9E292BB26B00903E3A /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				42273E99292BAA7C00903E3A /* Product.swift */,
+				42273E9E292BB26B00903E3A /* ProductList.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -197,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42273E8D292BA8AA00903E3A /* ContentView.swift in Sources */,
+				42273E9F292BB26B00903E3A /* ProductList.swift in Sources */,
 				42273E8B292BA8AA00903E3A /* NewWaveStoreApp.swift in Sources */,
 				42273E9A292BAA7C00903E3A /* Product.swift in Sources */,
 			);
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42273E8E292BA8AA00903E3A /* ContentView.swift in Sources */,
+				42273EA0292BB26B00903E3A /* ProductList.swift in Sources */,
 				42273E8C292BA8AA00903E3A /* NewWaveStoreApp.swift in Sources */,
 				42273E9B292BAA7C00903E3A /* Product.swift in Sources */,
 			);

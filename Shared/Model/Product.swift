@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-class Product{
-    var name: String
-    var description: String
-    var image: String
-    var quantity: Int
-    var price: Double
+class Product: ObservableObject{
+    @Published var name: String
+    @Published var description: String
+    @Published var image: String
+    @Published var quantity: Int
+    @Published var price: Double
     
     init(name: String = "NW product", description: String = "f", image: String = "NW-PC", quantity: Int = 0, price: Double = 1.99){
         self.name = name
