@@ -13,6 +13,8 @@
 		42273E8E292BA8AA00903E3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42273E7C292BA8A900903E3A /* ContentView.swift */; };
 		42273E8F292BA8AA00903E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42273E7D292BA8AA00903E3A /* Assets.xcassets */; };
 		42273E90292BA8AA00903E3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42273E7D292BA8AA00903E3A /* Assets.xcassets */; };
+		42273E9A292BAA7C00903E3A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42273E99292BAA7C00903E3A /* Product.swift */; };
+		42273E9B292BAA7C00903E3A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42273E99292BAA7C00903E3A /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		42273E82292BA8AA00903E3A /* NewWaveStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewWaveStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42273E88292BA8AA00903E3A /* NewWaveStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewWaveStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42273E8A292BA8AA00903E3A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		42273E99292BAA7C00903E3A /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +57,9 @@
 		42273E7A292BA8A900903E3A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				42273E9D292BAC8B00903E3A /* Views */,
+				42273E9C292BAC5F00903E3A /* Model */,
 				42273E7B292BA8A900903E3A /* NewWaveStoreApp.swift */,
-				42273E7C292BA8A900903E3A /* ContentView.swift */,
 				42273E7D292BA8AA00903E3A /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +80,22 @@
 				42273E8A292BA8AA00903E3A /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		42273E9C292BAC5F00903E3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42273E99292BAA7C00903E3A /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42273E9D292BAC8B00903E3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42273E7C292BA8A900903E3A /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +198,7 @@
 			files = (
 				42273E8D292BA8AA00903E3A /* ContentView.swift in Sources */,
 				42273E8B292BA8AA00903E3A /* NewWaveStoreApp.swift in Sources */,
+				42273E9A292BAA7C00903E3A /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +208,7 @@
 			files = (
 				42273E8E292BA8AA00903E3A /* ContentView.swift in Sources */,
 				42273E8C292BA8AA00903E3A /* NewWaveStoreApp.swift in Sources */,
+				42273E9B292BAA7C00903E3A /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
